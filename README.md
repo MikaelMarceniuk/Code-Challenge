@@ -11,7 +11,7 @@ O projeto consiste em uma API que implementa operações CRUD (Create, Read, Upd
 ## Features
 
 - CRUD de Produtos
-- Testes automatizados end to end (Por enquanto)
+- Testes automatizados end to end (Futuramente sera implementado testes unitarios)
 - Gracefully stop: A aplicação implementa um processo de encerramento que opera de forma elegante em caso de ocorrer um erro não tratado. Esse procedimento assegura uma terminação controlada, encerrando de maneira ordenada as conexões e requisições que ainda estão em andamento antes de concluir o processo de encerramento.
 - Tratamento de erros nao operacionais e operacionais
 
@@ -161,7 +161,7 @@ O projeto inclui por enquanto testes end to end para garantir a robustez da API 
 
 ### Configuracao
 
-Por enquanto os testes utiliza as mesmas credenciais do .env para poder conectar ao banco de dados. Para uma sessao de testes bem feita e necessario ter um banco de dados limpo, para que os testes seren executados da forma q foram programadas. Em uma versao futura, os testes serao rodados em um banco de dados em memoria, para assegurar que todos os testes serao feitos em um novo banco de dados e tambem facilitar fluxos de CI/CD.
+Atualmente os testes utiliza as mesmas credenciais do .env para poder conectar ao banco de dados. Para uma sessao de testes bem feita e necessario ter um banco de dados limpo, para os testes serem executados da forma q foram programadas. Em uma versao futura, os testes serao rodados em um banco de dados em memoria, para assegurar que todos os testes serao feitos em um novo banco de dados e tambem facilitar fluxos de CI/CD.
 
 ### Executando testes unitarios
 
