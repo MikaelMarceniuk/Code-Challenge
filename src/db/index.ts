@@ -17,7 +17,7 @@ class MongoConn {
 
     const host = process.env.MONGODB_HOST
     const port = Number(process.env.MONGODB_PORT)
-    const database = isTestEnv ? "code-challenge-test" : process.env.MONGODB_DB
+    const database = process.env.MONGODB_DB
 
     return `mongodb://${host}:${port}/${database}`
   }
