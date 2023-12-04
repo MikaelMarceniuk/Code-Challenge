@@ -73,6 +73,7 @@ Essa rota tambem contempla os seguintes filtros:
 - description: string
 
 **Exemplos utilizando os filtros**
+
 Pegar todos os produtos com preco maior que 9.99
 
 ```http
